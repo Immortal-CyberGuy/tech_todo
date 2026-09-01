@@ -1,0 +1,581 @@
+{
+  "summary": {
+    "scenario_name": "A",
+    "mode": "progressive",
+    "provider_name": "provider_a",
+    "ticks_run": 24,
+    "calls_initiated": 120,
+    "calls_connected": 25,
+    "calls_completed": 25,
+    "calls_failed": 95,
+    "peak_agent_utilization": 1.0,
+    "decision_breakdown": {
+      "approve": 32
+    },
+    "notes": [
+      "Low answer rate, moderate talk time"
+    ]
+  },
+  "tick_log": [
+    {
+      "tick": 0,
+      "available_agents": 0,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 20,
+        "approved_calls": 20,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=20, queued_borrowers=120; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 20,
+        "started": 20,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "23c32dfc204d408581edd567cabc17ce",
+          "1bb75863a5cd433692f34fc74dd42178",
+          "fa29bf7dbbc54a5fa8c4cc608ae2add6",
+          "9444e9ebb2cd49538d06daa0d6ec329d",
+          "39dad26d5cf14473bc6aeee32c8cfbc7",
+          "bbfcd62bb2a34b009fa282fb5123a821",
+          "3cc1f36068454e75a60c625721260490",
+          "ed8b5f91fd8f41f38ed873acb9a8c9ef",
+          "b35f0752a9424945b742dd52df53dbfa",
+          "a780e22312a248a192203954d04364d5",
+          "37d93210516c4708bb7833c5a7d6820a",
+          "5ef32b21ea0549b4b86c978a9f2fe7a9",
+          "41beff10cce8401ab2082a3bf63cf416",
+          "80e799fb0d4848e39c7a13ebd95462e6",
+          "a72b2b72fa0344d5abb6c6ecba623dd2",
+          "906f191a430c43b4be1c34fc31ca08f9",
+          "0c5d239f901247f5bfd6a6f669b3e525",
+          "4b767fc6e47c445284a917a88fc7527a",
+          "11312811767f4301bdb3a941e707a08a",
+          "a46a96957856474ab6942570594974d2"
+        ]
+      }
+    },
+    {
+      "tick": 1,
+      "available_agents": 0,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=100; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 2,
+      "available_agents": 0,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=100; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 3,
+      "available_agents": 0,
+      "connected_agents": 5,
+      "decision": {
+        "requested_calls": 15,
+        "approved_calls": 15,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=15, queued_borrowers=100; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 15,
+        "started": 15,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "a262b5c2459b4cb6beefa72a3f9ca27f",
+          "ee187da520c745bb8af1c9b07f66e802",
+          "3b1022fb2d32463bab3751c6ed79f7f8",
+          "e30931a40fe4431b9574a69ac87a7869",
+          "b088bbb80b4c4c989ae6583ff90dd542",
+          "dfbc6bae353741eba8136cb4ca050ef2",
+          "4352befff6724a70947e91a1bf7a16b8",
+          "284392e83ee94be39ee3903548c9a3a4",
+          "2bacca856d254754afcaf5bd98f31b41",
+          "3394917b49d9423581d6965759a1bef1",
+          "a71779723bed4ec4bdfd2ddfa66210e0",
+          "07d1b8e6518c4154be02a7fc236dae23",
+          "faee023b4d904b3e83118b70402b45c0",
+          "6b4b13cb8e3b47379c3558734576e8cb",
+          "c5b17f4f63304a54ad90f9cbf4102da9"
+        ]
+      }
+    },
+    {
+      "tick": 4,
+      "available_agents": 0,
+      "connected_agents": 5,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=85; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 5,
+      "available_agents": 0,
+      "connected_agents": 5,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=85; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 6,
+      "available_agents": 0,
+      "connected_agents": 9,
+      "decision": {
+        "requested_calls": 11,
+        "approved_calls": 11,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=11, queued_borrowers=85; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 11,
+        "started": 11,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "709dd4e459a74f6a82c6641c2500e001",
+          "2a5add15dd8240178992062ab3b09109",
+          "d232b508b87c48cc8cc6ef085fa78da2",
+          "90b7819a4c5b4b9ea0b26c95932bea84",
+          "c01f11b5b5084a1ea3375f2890f376e8",
+          "a28e5f54831540c080c6a3da43763026",
+          "4d4b7c355e914434ae36ee37a2088652",
+          "4a5dfb11770844f994fbdfca00644c6c",
+          "43fffca0fddc47ddb1862816f2bc1343",
+          "9a9ad4d95257403fbc0f44b32e7b084e",
+          "3e6e91055b9a4288a4476de2fb8ff301"
+        ]
+      }
+    },
+    {
+      "tick": 7,
+      "available_agents": 0,
+      "connected_agents": 4,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=74; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 8,
+      "available_agents": 0,
+      "connected_agents": 4,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=74; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 9,
+      "available_agents": 0,
+      "connected_agents": 9,
+      "decision": {
+        "requested_calls": 11,
+        "approved_calls": 11,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=11, queued_borrowers=74; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 11,
+        "started": 11,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "3196e5eac25c484c8b58d31ec15ce6d4",
+          "1ac31a7b8f284db6a31093d010cf40fa",
+          "6f37f3ca216848599b4760d60f795379",
+          "1ea8df726b13469daaa35ec464135fd3",
+          "9cd0cbbde1224766b374a577051455a5",
+          "ae8895529e6c4489a5e9af07b3a584c8",
+          "07a5258362b54fd39c8f3ac8e4c1e82b",
+          "0659916233904e6fa67c205923bbecfe",
+          "6a478db28a9e4a92b493fbcceb3fe46d",
+          "213f4e54a67d4e978b840d870aa1ef0b",
+          "a0b3c4eda4b04e49a65dff3b3e42fb60"
+        ]
+      }
+    },
+    {
+      "tick": 10,
+      "available_agents": 0,
+      "connected_agents": 5,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=63; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 11,
+      "available_agents": 0,
+      "connected_agents": 5,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=63; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 12,
+      "available_agents": 0,
+      "connected_agents": 6,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=14, queued_borrowers=63; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 14,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "868637f94e90462480648b81fabc38f1",
+          "4a58e63f3dc849cab14fec76f2721d1f",
+          "fc5ac76127204155a87c3c6422664feb",
+          "1e799248b456429c968f624a59fffc7e",
+          "7b1b8f3e4e7c47bd851d0a341cbed296",
+          "41befb4afc004861af107e3fbf522f31",
+          "41d824018c704afe8b46dc5420485503",
+          "2a73ddb95b2a4d48afa6c4ae760b43db",
+          "b6694890c6854aff8f35e17a449d7176",
+          "d52dc5bddf9740cdb61c770f5fda90d5",
+          "739416c19ced433280b8b2c8a53b7cd6",
+          "071853ecc7584baab80aedaa240af860",
+          "907c20990ffa4383abba5786aeabc828",
+          "073bf83dc45c447fbbe179bb29b8b878"
+        ]
+      }
+    },
+    {
+      "tick": 13,
+      "available_agents": 0,
+      "connected_agents": 1,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=49; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 14,
+      "available_agents": 0,
+      "connected_agents": 1,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=49; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 15,
+      "available_agents": 0,
+      "connected_agents": 1,
+      "decision": {
+        "requested_calls": 19,
+        "approved_calls": 19,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=19, queued_borrowers=49; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 19,
+        "started": 19,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "abacb5209aa446af92b9d7f2b759f494",
+          "0611eca3a7984d16b251fc9d644a7f60",
+          "1c6c246f856f4d598cd7e4530a0ba00f",
+          "48de0287aa2f4a6dbb02be303a5fec65",
+          "a022dac35f03444ebc2d9ede445abdef",
+          "c492611ba0be4ce887c38ff11bf030d2",
+          "61a6869c4e054b08a6b500765d6a4fb9",
+          "5656f402846749baa33e71d745229d60",
+          "a6c083f700534b64a524cc2f20e740c5",
+          "0a916c24edab42468e18acf880a7b1a4",
+          "a172691ac2ca4a3b8134f00b91ce02e6",
+          "88f2d1edd6f34c07b1ba94c97b50a747",
+          "8ee57cc5536f463a82dbd469bf140094",
+          "56babfc6184b4f89a33bad11f2396694",
+          "cf86438095954061892408bf27b4e2b1",
+          "338430d1f0b54ab8a343146812a68401",
+          "e0efa786e10b4be89f4190ded6ee8be8",
+          "9d9f782c81d64e63a8040c94a280e8d0",
+          "49089b12bbb04936a3b0cdf8135e250c"
+        ]
+      }
+    },
+    {
+      "tick": 16,
+      "available_agents": 0,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=30; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 17,
+      "available_agents": 0,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=30; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 18,
+      "available_agents": 0,
+      "connected_agents": 4,
+      "decision": {
+        "requested_calls": 16,
+        "approved_calls": 16,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=16, queued_borrowers=30; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 16,
+        "started": 16,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "1a608768feeb478cac3a7b8d33504104",
+          "0a01cdfa51a146cf90482d626ecf1211",
+          "32ff4151baf049e2bfd7a15adc35f024",
+          "99de899dacb94353a352acc6b799b32e",
+          "70fd492d8acf4768a15b26c3603a45c3",
+          "3f1aa7a8c4384757b35d3d7547fdedd5",
+          "3c6b41b2489a45ab8ee0b70ffff08ce0",
+          "787b0889713d4119bef8247747acbd3c",
+          "0f4d4e81a24c47e4a901a8128c3d53cd",
+          "6147b7ae32e34c918d220a628570eef6",
+          "e2fa9485dd2e44af98529edb27eb3839",
+          "dc6921643eff439caf9a52b9a90a7325",
+          "348cecd7e29649a2a1a3c8c10cf86a07",
+          "190bacc833394d549b27593db8a04323",
+          "709ec7910aa746f28499577079124416",
+          "cb12538dd58a4121b00cdec151114d1e"
+        ]
+      }
+    },
+    {
+      "tick": 19,
+      "available_agents": 0,
+      "connected_agents": 4,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=14; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 20,
+      "available_agents": 0,
+      "connected_agents": 4,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=14; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 21,
+      "available_agents": 0,
+      "connected_agents": 6,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=14, queued_borrowers=14; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 14,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "c537b07aa5a3417ea6f3d0cf941939ee",
+          "6a6c8f059077447b9ae798aa7e05e746",
+          "0cccb9a0926548168c32da7973fbfb18",
+          "1f30803f3b2b422284f0c1935174b46d",
+          "c4fe4e5cf88b4fa9b4c4755617bf430c",
+          "a75008280a2e4af0b43c4ba5a83c7a8f",
+          "6ba66d9d7cbf426b8ed69f796e1802a9",
+          "62213d1cb95548ef921e898899a03f64",
+          "85a2c5d0a5db487aac85f5411e6c4761",
+          "4705427997004a539d938c6d0cca476f",
+          "60fabd1920464a51b6134cf618baa630",
+          "dcbe957871994e5990c7388ef7f1ecf9",
+          "7c3753e6940d4a9f9d5e505ea21d90a6",
+          "f54373b0cb9d465ebb35e6827c967bdd"
+        ]
+      }
+    },
+    {
+      "tick": 22,
+      "available_agents": 0,
+      "connected_agents": 2,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=0; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 23,
+      "available_agents": 0,
+      "connected_agents": 2,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "approve",
+        "reason": "progressive mode uses immediate availability only: available_agents=0, queued_borrowers=0; progressive hard-cap uses immediately available agents only"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    }
+  ]
+}

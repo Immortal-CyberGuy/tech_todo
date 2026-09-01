@@ -1,0 +1,9 @@
+[project]
+name = "smartdialer-tech-assignment"
+version = "0.1.0"
+description = "SmartDialer functional prototype for the 2026 hiring assignment"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

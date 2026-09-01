@@ -1,0 +1,1245 @@
+{
+  "summary": {
+    "scenario_name": "LOAD",
+    "mode": "predictive",
+    "provider_name": "provider_b",
+    "ticks_run": 40,
+    "calls_initiated": 597,
+    "calls_connected": 213,
+    "calls_completed": 194,
+    "calls_failed": 344,
+    "peak_agent_utilization": 0.93,
+    "decision_breakdown": {
+      "approve": 1,
+      "reduce": 47
+    },
+    "notes": [
+      "Basic load-test harness"
+    ]
+  },
+  "tick_log": [
+    {
+      "tick": 0,
+      "available_agents": 7,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 100,
+        "approved_calls": 100,
+        "action": "approve",
+        "reason": "predictive mode considered available_agents=100, near_free_agents=0, answer_rate=0.35, inflight_calls=0, avg_setup_ticks=2.00, avg_talk_ticks=4.00, provider_health=1.00"
+      },
+      "allocation": {
+        "requested": 100,
+        "started": 93,
+        "failed": 7,
+        "skipped": 0,
+        "call_ids": [
+          "ce1da852955349af81d180eab560f299",
+          "22fafc3957bc48d0ad9e1f3cb214c58d",
+          "c0ce04a406e34b0991827b53cfb8a345",
+          "8c3a39a804974ddab48083787922cc18",
+          "89b898ec9a0749008ee6b5c69bab0a08",
+          "ecfa409b3531413bb3641feaedc7abf2",
+          "64490a05f772491691cfe629ab0db152",
+          "36462c0da0e14318bfd7d96bf60ac11d",
+          "dbb43aae5c734bd3b8c0eabebdead8cb",
+          "d5d7a2be67704a91932098713121a62c",
+          "c88622b8333648288ef5551af025f12a",
+          "471d41e46e6044eeaf06e13886398c3e",
+          "46029a7cda4d4f5fb126f8d734a54a9c",
+          "3b9f35255a31433fb38a5c77b4b90a23",
+          "6a83a199fdf14c168d20340b98af50b6",
+          "ecb4e34ecd6842758f58b021e246e4e4",
+          "2a32047bbf224ce4a4c1f9cea6f3be34",
+          "41baefa29d9044d0a1589b5b316450e1",
+          "e912048f9e2e4a79988b667d4fd55382",
+          "511f2256b05d4584b26f0185a163e6ac",
+          "0841d4bb8a28404ea5508c4aa54a0d51",
+          "b97d9ef21e104ccbaba8fe36a6fc9f58",
+          "f75c5d63768945e780d789a1430087c3",
+          "5ad8de16037d4b82844e8faff9705cff",
+          "03df8014dd714e4682c72471ef5fbe6c",
+          "5a0588bdd9554786b50243dde620a198",
+          "301667993fc54267984ecbfe584823aa",
+          "33e2b5d2566045c58b0477c9dea8ebfd",
+          "12aaf855f3e44b35b0ef73f0f8c36f4d",
+          "6fda3113abe340319baaa1bd943f172b",
+          "425da718ceff41e5ab5d3e062c584bff",
+          "ee20485078b146569bfd239fd3958df1",
+          "840f2e980d0a43afbc8ea83ceab598bf",
+          "990c016fd7424362ace1790a68ebe988",
+          "accad7d1a1d04c0f9cd74eb786a64d0f",
+          "329f2e1f017e4047b97727854825aed7",
+          "9426088d395a40b580da13704e9fd731",
+          "3cc43840ae35451abb9da0c82da86a65",
+          "e15ff1aecd8b44e2a10cd14e53f46cec",
+          "a252cb258b1b4cacaee245783b16ccb4",
+          "7670925c880a4445b60d8df96e2101aa",
+          "927546a6610e4183ba51d7c0b7e4a15e",
+          "94a0ea29703a4cf9a8b65a9a3b6c340c",
+          "27517f2add10436faa4afee53f1c7409",
+          "a33c20fff444446ba50f20f537497ce8",
+          "4b29cb1c029847c0acb71198f84152e8",
+          "4a2844e8e59a47bda8824d24459e9c78",
+          "2939d25aa1cc4c4ea00888d3898d9bed",
+          "036c1db36e7841c08ae0a19ef3f819eb",
+          "3a8bc2ea033d437d80eb94108127d854",
+          "a0c5207b16984e96b06d321c32fbcbdd",
+          "fabba3f17c414e67adffd0b167cc9763",
+          "3a9741c500934d778dead30288a83d62",
+          "466ca6e7836d47d595cbc5782136de2a",
+          "f96ff644843c4210a8fc4fe0462a0000",
+          "f18d067ea014449a8e0c9cd6d3bc49d4",
+          "93e7f11cea014351bd2bac78731211de",
+          "b4184d79331842a09adb90ff594e5be7",
+          "773780b4b30746b9aaeca1e02e703dc1",
+          "69129da763234714a682056313e65706",
+          "d0211fb16647465a8408fba77b3bd7f1",
+          "a6297678991b41c08e9a31a9fcf084d3",
+          "ba9f9396a4d443869a3935a17321cb88",
+          "b2d9c60bbb0147babc767e8f5101213e",
+          "68fc00a20cd847a0a784aefa0e4ca99e",
+          "7524841a1cfc4f45a323993975b14597",
+          "11975d4d96ab41089105294f604da140",
+          "2e4e4d0c5efd496cb76da4072afb6c08",
+          "06340139355d4976943996645baa776a",
+          "3ca73792b7a7467a9688be78a26ce8d7",
+          "5d5ff796be794439b895f52b3b12ddc7",
+          "fbcfc6e3357c42bbbb965c892666f819",
+          "b0a46c31f7e3476687219bbf6a7b144d",
+          "bb1c4099f3bd4e8a936a3f2b2a1f672b",
+          "d283a581f04f44f2840737dc5355f683",
+          "b888e89a1f404e40804e7fca43e69077",
+          "97533b8aad4643cd9c534a84712e86ea",
+          "a0ccafbef186492f97d0f5e3aeccd4b5",
+          "76a982c3c93f435b813a23f3757f08b6",
+          "572e6805eaaa402f98bfb9f80919df92",
+          "9814a60387304ec68631bb1ba3845e73",
+          "54090044b6d8445b97b60d79dc86639b",
+          "366ae1fedb4e4ca8868e478ab974f798",
+          "22459e578e6943c6b06905726a983283",
+          "8f98300b3f97472eb445300296a43975",
+          "f562d3b5ba19466f876cd4ced9f59a0d",
+          "9ba0cf8160dd4de5b2a689d29240abff",
+          "eb8e5a57f1524909b14889b35eab3c51",
+          "d0c9cebad5034c5c9d2e3dbf2f64f46b",
+          "8f8e1dbc47ae4ca88ab24d74edae880e",
+          "5f0ba4f60a9347969614d86bcb436853",
+          "966edaacba7443699f25cbdcb4393a9f",
+          "49d8bdff3c154160990ec29e9c40da5a"
+        ]
+      }
+    },
+    {
+      "tick": 1,
+      "available_agents": 7,
+      "connected_agents": 0,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=7, near_free_agents=0, answer_rate=0.00, inflight_calls=93, avg_setup_ticks=2.00, avg_talk_ticks=4.00, provider_health=0.93; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 2,
+      "available_agents": 23,
+      "connected_agents": 12,
+      "decision": {
+        "requested_calls": 2,
+        "approved_calls": 2,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=24, near_free_agents=0, answer_rate=0.24, inflight_calls=76, avg_setup_ticks=2.00, avg_talk_ticks=4.00, provider_health=0.83; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 2,
+        "started": 1,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "65a1846d347a4b1b8d1edb3f66061625"
+        ]
+      }
+    },
+    {
+      "tick": 3,
+      "available_agents": 30,
+      "connected_agents": 22,
+      "decision": {
+        "requested_calls": 0,
+        "approved_calls": 0,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=30, near_free_agents=0, answer_rate=0.44, inflight_calls=70, avg_setup_ticks=2.45, avg_talk_ticks=4.00, provider_health=0.75; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 0,
+        "started": 0,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": []
+      }
+    },
+    {
+      "tick": 4,
+      "available_agents": 29,
+      "connected_agents": 28,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=0, answer_rate=0.32, inflight_calls=60, avg_setup_ticks=2.79, avg_talk_ticks=4.00, provider_health=0.69; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 11,
+        "failed": 3,
+        "skipped": 0,
+        "call_ids": [
+          "e36e57b360fd4c88829ba182401cb9ee",
+          "4aefc39a5229480698ae9102e6aa0639",
+          "a8132b438eb04d2380f9af9bee557cc5",
+          "aa18b3e8ae8b4a778c3e369883be0778",
+          "47bb5fab4dc346e488498bd560e6ed81",
+          "14c36c06ebb34dda973a00b3130b8f76",
+          "9526d662da8a45e7aefb706cac6a165f",
+          "b8211bd6eba54f329b5d51b643ca5a34",
+          "483fb83a5494488089e7573f5b840f19",
+          "7283bf87f96740f99097c6df169bde9d",
+          "e538e329f1d64ac5aa89f08b45814455"
+        ]
+      }
+    },
+    {
+      "tick": 5,
+      "available_agents": 28,
+      "connected_agents": 35,
+      "decision": {
+        "requested_calls": 15,
+        "approved_calls": 15,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=0, answer_rate=0.26, inflight_calls=60, avg_setup_ticks=3.23, avg_talk_ticks=4.00, provider_health=0.62; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 15,
+        "started": 12,
+        "failed": 3,
+        "skipped": 0,
+        "call_ids": [
+          "4e65c8c61a774d0a90f1449ed27338ac",
+          "ff3829b02c294ea0b86e100b38299fb2",
+          "ce93a927d00349529b4d13e218172e51",
+          "858c2ed442344a80abf04efe293d2b1f",
+          "68b188a15c6e444ea9c52365097d49e6",
+          "fd47b258e3214d1287fcfad03bdbfe34",
+          "1028850ae1544778946441ddc60674e8",
+          "c029925d6c4d468ba28ff0816fa191cb",
+          "420b5466de8749868c2e08b9a609aef8",
+          "e58c79c44e344d0d871c36fd057aa4ce",
+          "6f7540e56dc840e0ace08fb59e9582ae",
+          "fea73fbd155c4daf9336ced9b1d04739"
+        ]
+      }
+    },
+    {
+      "tick": 6,
+      "available_agents": 29,
+      "connected_agents": 44,
+      "decision": {
+        "requested_calls": 6,
+        "approved_calls": 6,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=35, near_free_agents=0, answer_rate=0.32, inflight_calls=65, avg_setup_ticks=3.70, avg_talk_ticks=4.00, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 6,
+        "started": 6,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "d94f084e87f94b488616fd994c4a56e0",
+          "69de88779d9f4e8d828ee9909e311391",
+          "e86137d9b5b540cb9133f9c6744dce06",
+          "c16fdc8cdbc643a7b2c866dcec10f45e",
+          "93919b766e954f8cabeb8572e946606c",
+          "7605756483de4f11bc89ce5e55a37108"
+        ]
+      }
+    },
+    {
+      "tick": 7,
+      "available_agents": 27,
+      "connected_agents": 39,
+      "decision": {
+        "requested_calls": 7,
+        "approved_calls": 7,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=33, near_free_agents=8, answer_rate=0.44, inflight_calls=59, avg_setup_ticks=3.62, avg_talk_ticks=4.00, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 7,
+        "started": 6,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "3a270c35c8b148218a6612be626aec87",
+          "523621e82a0841248dd48b653bfd330f",
+          "f71865a7f38f434fb7f8f869714cc924",
+          "188dc44ab29d423091b955dc12e3e918",
+          "81f2d34e6be0495a8a218d7f56ca123d",
+          "7f3717990fd245548c3d70f9149b7337"
+        ]
+      }
+    },
+    {
+      "tick": 8,
+      "available_agents": 23,
+      "connected_agents": 33,
+      "decision": {
+        "requested_calls": 8,
+        "approved_calls": 8,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=31, near_free_agents=16, answer_rate=0.54, inflight_calls=53, avg_setup_ticks=3.59, avg_talk_ticks=4.00, provider_health=0.57; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 8,
+        "started": 8,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "d30b47a99d3f4e15aee0cdc367c8cfce",
+          "6d3afd5f59cb42d5ae4b6f53181b881c",
+          "7787154619544333ad3a002c154b3836",
+          "38d68269d1154ef99e2cb7823964b353",
+          "5941aabf843248178f708f1ea24103df",
+          "a189446948b04f8db739c0f66f23a921",
+          "27648d9a0e964498a8bb2160e277b0c0",
+          "0a66dafb7bd2450483a4e593029758ee"
+        ]
+      }
+    },
+    {
+      "tick": 9,
+      "available_agents": 26,
+      "connected_agents": 30,
+      "decision": {
+        "requested_calls": 7,
+        "approved_calls": 7,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=33, near_free_agents=15, answer_rate=0.54, inflight_calls=52, avg_setup_ticks=3.80, avg_talk_ticks=4.39, provider_health=0.57; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 7,
+        "started": 7,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "1fd8d4e9f7dc49059993ad610ca87653",
+          "6dbe21f6bf1c47f9b1236d0d88c78719",
+          "0a5c791c35f940f6abf243f326197b37",
+          "3aa73def0bfc489f8f011d83a93ca2de",
+          "ea2a555377e142d3ad02e57902450814",
+          "91f753b386cc4480ac64919f6841ccbb",
+          "8ba2831ae0c943ea8975e823d1fce42f"
+        ]
+      }
+    },
+    {
+      "tick": 10,
+      "available_agents": 27,
+      "connected_agents": 26,
+      "decision": {
+        "requested_calls": 10,
+        "approved_calls": 10,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=37, near_free_agents=16, answer_rate=0.54, inflight_calls=47, avg_setup_ticks=3.82, avg_talk_ticks=4.94, provider_health=0.57; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 10,
+        "started": 10,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "bd3b70106a5c404aa0b33d9584da30b7",
+          "80ef915405284ee588a323bb4e033d8f",
+          "824488dbc992493f8ee52527e10530da",
+          "62d01d4ccd4143aeb76772b9b0e9dfba",
+          "690671d4f13a40a4a49f028f73a10c85",
+          "a192fa0ab0574f77a55361066e9122f4",
+          "9291f6d5f631466694b23ce15e34234e",
+          "e796f4d46cf8463d91a6a9001c80ac20",
+          "4ae123a4ca5b4dbb8f30bade410fd809",
+          "627f0807e367400588af302a08737169"
+        ]
+      }
+    },
+    {
+      "tick": 11,
+      "available_agents": 26,
+      "connected_agents": 16,
+      "decision": {
+        "requested_calls": 13,
+        "approved_calls": 13,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=37, near_free_agents=22, answer_rate=0.58, inflight_calls=41, avg_setup_ticks=3.88, avg_talk_ticks=5.24, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 13,
+        "started": 11,
+        "failed": 2,
+        "skipped": 0,
+        "call_ids": [
+          "85888120d6724cc0b03f58e1aa9d3982",
+          "34dcc73a654341598ee5448980619d1a",
+          "76cfc4f20ce545dbbddf03f3c4a9e015",
+          "e6753d3b1146484fbae82a60726352ca",
+          "a15f8d269087408f878cb1e31dc109d3",
+          "bf69b15a6aff43c8a45529dad088b869",
+          "4b3a8acc5cac49bc832450fc96c24c4e",
+          "9c0a6e67fef348d1b4a4bf9f01814f87",
+          "e4d51cda76c94413b4010f611f941504",
+          "c04fa63e2966441bae6638f649c9a365",
+          "54019a7935d046b49a9a8ca397122deb"
+        ]
+      }
+    },
+    {
+      "tick": 12,
+      "available_agents": 29,
+      "connected_agents": 20,
+      "decision": {
+        "requested_calls": 12,
+        "approved_calls": 12,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=41, near_free_agents=13, answer_rate=0.46, inflight_calls=46, avg_setup_ticks=3.90, avg_talk_ticks=5.24, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 12,
+        "started": 12,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "26a86ea2551d4a2cbb2f6bc5cad9ed06",
+          "e5e747dce13648c0a4b11806529738c5",
+          "7f5cbcf71b82464b9f7ad2a38ee0a055",
+          "e8af7eced2e143538400be041625b4d0",
+          "52d987ed23ab42589aca4bcb7c9e6a32",
+          "667399ec42ce410a8ab4df4ee92faf6f",
+          "f757174cc9a04e7783df65c512f41255",
+          "3bffbd9e0dcd4a15a25d2be7dcdef2cf",
+          "f18038f306324bf0a5fa779f8376e840",
+          "69937fa775474acd98417fa71b347a5e",
+          "65182e51ce61490690ac54d399e34252",
+          "1043d6b36830486baddf3247eed3b461"
+        ]
+      }
+    },
+    {
+      "tick": 13,
+      "available_agents": 32,
+      "connected_agents": 19,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=46, near_free_agents=4, answer_rate=0.34, inflight_calls=50, avg_setup_ticks=3.84, avg_talk_ticks=5.24, provider_health=0.60; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 14,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "7c77ad5a96114f5c8aee53c14882607b",
+          "1b00fae8d7b64747980f40f650fe29f5",
+          "9de5f238e916465e9b3f3e55fc447d9c",
+          "76b62fba6687450ab363c783ab1e7e06",
+          "59610468e5b94a7698cad90b344fd38c",
+          "a1e1b96218e74b6fa06a8ae05df4e29d",
+          "7ce70e6cb22c4725af2b67d46315ae11",
+          "8dce80aa8813498eaf0d4f9ca0d3f5e4",
+          "c163bde4745849118de90a16a7b6f010",
+          "eb28de0f3c534669a791bdb79c84d38d",
+          "f632c55c6b624fa399e4a3721ce941fa",
+          "00de8e624ab5411fb68a9b679ff647be",
+          "b76843d3911e4253b93ec097926ed561",
+          "d66bf787a8574f3aabd1df793150f681"
+        ]
+      }
+    },
+    {
+      "tick": 14,
+      "available_agents": 26,
+      "connected_agents": 20,
+      "decision": {
+        "requested_calls": 12,
+        "approved_calls": 12,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=38, near_free_agents=9, answer_rate=0.36, inflight_calls=53, avg_setup_ticks=3.76, avg_talk_ticks=5.24, provider_health=0.62; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 12,
+        "started": 12,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "d940fce293f041a5bc67e5383baa3b67",
+          "c4fc217bab8c4fe89da2d1f94ad4b188",
+          "c95ca92ab0ab4e36bad0d2ddfd036f15",
+          "b7b383946e1f4bfaa23facdb031c683e",
+          "73a6f69554ad4df08892b86d2a1e3c4b",
+          "8cf6d9e3381d48539a1a2f8b54fa4429",
+          "3fe3c0991f8f4b179dcfa8c25497dc67",
+          "f56ffb64b8854e94830b9eac3a58a72f",
+          "0b9cf7d6b4764a87bb6679f4a06cb395",
+          "8900f5f975fb4743be3c5f2efd870d71",
+          "5ee9129041294d4b9a120564db1a68d0",
+          "7b3e8da226084b458e01a6593c6aeba9"
+        ]
+      }
+    },
+    {
+      "tick": 15,
+      "available_agents": 31,
+      "connected_agents": 21,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=41, near_free_agents=7, answer_rate=0.32, inflight_calls=52, avg_setup_ticks=3.70, avg_talk_ticks=5.36, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 10,
+        "failed": 4,
+        "skipped": 0,
+        "call_ids": [
+          "1fb3fc83487c4aebb2dd1e6983ffe213",
+          "b8247d9ffb464d39b3f48c53a0524a30",
+          "1e7b25a8ce2941d68863c3e41028d388",
+          "4479df984a2447bd909c090361654fc8",
+          "d4917145ca4d4434ac1c432e5943cbd6",
+          "ec7ede3cd5db4908bb6331da69cf30a3",
+          "646c178921554d0a88c904395ea1d242",
+          "bf0af02d781141a2900423b9765c30c7",
+          "3a2691d9a6b24fddbe782b9ccc894824",
+          "9e49020720914b27a3e7fd273ab5d4dd"
+        ]
+      }
+    },
+    {
+      "tick": 16,
+      "available_agents": 28,
+      "connected_agents": 23,
+      "decision": {
+        "requested_calls": 12,
+        "approved_calls": 12,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=6, answer_rate=0.30, inflight_calls=54, avg_setup_ticks=3.70, avg_talk_ticks=5.62, provider_health=0.63; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 12,
+        "started": 12,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "bf0cf289d1f34704bd1db645b01ed99f",
+          "319e7393dd0b40b3bd0d851b950b4605",
+          "4118499f930c45ef9b1eafd4e6c866a8",
+          "6879b94b1162436a815ebf21f6174c87",
+          "56021edac0a94c1aa4526f30a831a76c",
+          "9d64bd44fbb5410f86b43ce951c71e94",
+          "30b448825c2a4972a8fe7dc550a4a2c8",
+          "0ae48c6669aa48a7924217e637e9b7cb",
+          "f84357385c3c4173908410ce2195debd",
+          "9381f225f264474da48aa49c9485c9e7",
+          "20e6567fb4f74e669edc96e8d0107033",
+          "608aee6e5a164226802d49f0b2dd1e79"
+        ]
+      }
+    },
+    {
+      "tick": 17,
+      "available_agents": 28,
+      "connected_agents": 23,
+      "decision": {
+        "requested_calls": 6,
+        "approved_calls": 6,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=34, near_free_agents=6, answer_rate=0.38, inflight_calls=60, avg_setup_ticks=3.60, avg_talk_ticks=5.72, provider_health=0.63; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 6,
+        "started": 6,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "782328c5eaf2406aa0e16c686a05e511",
+          "ed7f3b1f7da7468ebf9b482a4a46d178",
+          "3c0a346399c04307bff1b95fb16c58b3",
+          "4cdcc15221a343179769fa22244ca5dd",
+          "01efbec0bdd04965942a470d931392f2",
+          "9822b9a26bcb48f891bf9d4822295427"
+        ]
+      }
+    },
+    {
+      "tick": 18,
+      "available_agents": 30,
+      "connected_agents": 27,
+      "decision": {
+        "requested_calls": 8,
+        "approved_calls": 8,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=38, near_free_agents=4, answer_rate=0.38, inflight_calls=58, avg_setup_ticks=3.52, avg_talk_ticks=5.66, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 8,
+        "started": 8,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "89d52f49cfd343c3b57bbb521667c8c0",
+          "3dccc31295ac4e608482bff76a205b1b",
+          "9b85e768e35e467e9a43494566cfcf6b",
+          "7bf3f4c7ae46438cb8bf46fdde3ec3ac",
+          "68a58c0762ce4ab88501e654defc0074",
+          "85c3f64d6343431f89ba3c927e013c49",
+          "3307fba930704443bfc6521185c62070",
+          "93297094cb8b461b8fdda1dd4b09bce5"
+        ]
+      }
+    },
+    {
+      "tick": 19,
+      "available_agents": 30,
+      "connected_agents": 31,
+      "decision": {
+        "requested_calls": 9,
+        "approved_calls": 9,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=39, near_free_agents=5, answer_rate=0.40, inflight_calls=56, avg_setup_ticks=3.70, avg_talk_ticks=5.74, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 9,
+        "started": 9,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "5d9e323fd35e49fe9dbef65a76c6bbd9",
+          "f39a673eed9d4d6aa5633fe96625f964",
+          "b29eea9d6031427c9c1e9623b5b108a6",
+          "0a75398b3fb2476582bd15d2f401aa7c",
+          "2b7f9c81100348f0b4ba68bb14341651",
+          "6b7700fd45f1425a9607d92e787f6588",
+          "007bcac7111a47169344be5ced3b10ff",
+          "44cbf0b743fe4080a630520dc89d52dd",
+          "7ba989b82f0947679ed3a1bab4085c90"
+        ]
+      }
+    },
+    {
+      "tick": 20,
+      "available_agents": 30,
+      "connected_agents": 29,
+      "decision": {
+        "requested_calls": 10,
+        "approved_calls": 10,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=39, near_free_agents=11, answer_rate=0.48, inflight_calls=50, avg_setup_ticks=3.64, avg_talk_ticks=5.84, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 10,
+        "started": 9,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "76462437994347018782a89474796451",
+          "f88a8019012241239ca81ab2c6a3eaa2",
+          "4a7933e1f271410196689211402823aa",
+          "5d19a1ed41034ac48538caa63b333351",
+          "b8bff7f56efb43be902fb2904d7ac00f",
+          "74243570eaa740b4aa968390dbf31e54",
+          "6c6a16fc71814403b91742d0014d830b",
+          "1c7ece0952ad41b4944d7f26bb9f28bf",
+          "ae8dd02edb534519ad61d63be626dd10"
+        ]
+      }
+    },
+    {
+      "tick": 21,
+      "available_agents": 29,
+      "connected_agents": 30,
+      "decision": {
+        "requested_calls": 10,
+        "approved_calls": 10,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=38, near_free_agents=11, answer_rate=0.48, inflight_calls=51, avg_setup_ticks=3.64, avg_talk_ticks=5.72, provider_health=0.63; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 10,
+        "started": 9,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "dea2a652955a49b5a54448a0b0ec7776",
+          "9be1abb44cf34143ad9dd6483d073312",
+          "1ffd59628bbe471c8d125621af90c2c4",
+          "c4dccd095b98490888e99dd215dffb7e",
+          "cbe8d874bfc7439d91341f5690b51218",
+          "7f0d6bd328954566893779e59d144a39",
+          "56d598d3c1b14cb3b7a82302783861e4",
+          "15efaa914fde43e7a38bbc360e043d7a",
+          "344d76e7e3ef44caa5f7f65c09d4042a"
+        ]
+      }
+    },
+    {
+      "tick": 22,
+      "available_agents": 29,
+      "connected_agents": 26,
+      "decision": {
+        "requested_calls": 11,
+        "approved_calls": 11,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=9, answer_rate=0.46, inflight_calls=51, avg_setup_ticks=3.68, avg_talk_ticks=5.78, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 11,
+        "started": 11,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "fb4cba817d3541fcb3939a1dd18ec756",
+          "6e455047987b418db2cdb01023e95c39",
+          "eca0230a54fb427c9f02de9ba281ca0f",
+          "fca5749061b04f31982160d9a86031f6",
+          "6569345c5c194326a18f9dee0f5516fa",
+          "5ab2280a77df42cdb1cdf35fcfe5136f",
+          "9552a427f65b4df686eff02c3a106372",
+          "b1f2abee15904819a7b9ec3b2515de8b",
+          "359ec6a8a66c4d4388ccaec8c7410fcc",
+          "0f865f570ba54e28899d1e9e2ef59f3e",
+          "7602198d26714735b9a8d97b94d14b51"
+        ]
+      }
+    },
+    {
+      "tick": 23,
+      "available_agents": 25,
+      "connected_agents": 22,
+      "decision": {
+        "requested_calls": 13,
+        "approved_calls": 13,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=37, near_free_agents=11, answer_rate=0.34, inflight_calls=52, avg_setup_ticks=3.62, avg_talk_ticks=5.72, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 13,
+        "started": 12,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "e1f22e3113694528a2805afb8e61d365",
+          "72092c6eb77d47049edd268002c77ab7",
+          "b41e7a2bd6694c8ab0134b384bf6f7ec",
+          "d18ecbd28b6840e5b71a67cf0b086834",
+          "130944d41c8a44e9b416e35cc5e9376b",
+          "db9fa6588ca84f6c874521a2236c3257",
+          "ab08ab7b4005426d9363f9f9b470639e",
+          "a11e2404081b46f28072e90d2339d6dd",
+          "fc0c01e82db944159ab21659a57d52fc",
+          "89e5b62865494604a6c76b81f0ecfa5c",
+          "678f89fe54a24e5b9e7117181722b6d0",
+          "89bd231b6b194bc78a49e638aa0c743d"
+        ]
+      }
+    },
+    {
+      "tick": 24,
+      "available_agents": 26,
+      "connected_agents": 23,
+      "decision": {
+        "requested_calls": 12,
+        "approved_calls": 12,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=37, near_free_agents=13, answer_rate=0.46, inflight_calls=50, avg_setup_ticks=3.66, avg_talk_ticks=5.54, provider_health=0.63; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 12,
+        "started": 11,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "41b34ba65d784e569b92b1afd9910a67",
+          "6f537f36ca1e45ddb5b18b937563fdef",
+          "d96fa8b61fb04c64a5442cd6b15d59f6",
+          "24f4045f8040434da7b469491c519b7e",
+          "0ab22910907f456198c0832786f9739c",
+          "98921d681a1b49f0b9e71fca7b788179",
+          "f9d16f38194a42cabb6a4b061fe88741",
+          "24305596b44a43c0a2af6012225c9aed",
+          "eefaca6d49e34416aa46bddbb1115cba",
+          "bd34706b986749ad8b4d223fad2c6335",
+          "9893423bf3ad488fb5d92a5ce1e14eea"
+        ]
+      }
+    },
+    {
+      "tick": 25,
+      "available_agents": 28,
+      "connected_agents": 19,
+      "decision": {
+        "requested_calls": 13,
+        "approved_calls": 13,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=13, answer_rate=0.46, inflight_calls=47, avg_setup_ticks=3.66, avg_talk_ticks=5.68, provider_health=0.62; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 13,
+        "started": 12,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "abd7adb0de174b3c9400824b3d99e136",
+          "8133089868a74794af8e1e04d5db676a",
+          "83e2b582d48f4a42881fdc466f3d6972",
+          "9cb34aa0d3d9471d8dfe608d4f4631ae",
+          "158cf0f773504c7888b3397073be2317",
+          "fcdd2e6562cc4094b4ceda744225c9a5",
+          "9e55b742b5dd404d851467c2c6c97dd6",
+          "2d311e201fb14f6ab7563f5fab27f2cf",
+          "772c13709fa84beda4d58790faa45488",
+          "dbec463e1f584fc2bc22f932f99c0b23",
+          "429e62ef43e140e39e11fb747fba70e3",
+          "4718e2d6925d4b5f83eaa848cfa50791"
+        ]
+      }
+    },
+    {
+      "tick": 26,
+      "available_agents": 25,
+      "connected_agents": 18,
+      "decision": {
+        "requested_calls": 16,
+        "approved_calls": 16,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=9, answer_rate=0.26, inflight_calls=51, avg_setup_ticks=3.64, avg_talk_ticks=5.62, provider_health=0.65; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 16,
+        "started": 15,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "b3ec6d8b1c35490bbe34137e3a7e41c0",
+          "112a8654dda342478c93c3488273d8fb",
+          "a91a7e75d0bd488383fbf719a9b4404c",
+          "e41986b8c5d54202931afc335fb27fe9",
+          "0a4f5557e9f048009e8d93f49d87cb17",
+          "149c3529cecc4cf68e41d2031e7b0308",
+          "b46d98818c8c4f218bf29f9f962cc2db",
+          "7221938d9e9a43e5a8c60d3df75f972b",
+          "788cc2c9b8b7434496811ef39d5dda90",
+          "63b877303e8f4b4983a8175ae6566e35",
+          "4e000bac2e004a25919860fa888a9b7e",
+          "0bcb38fc0da5498393a4c850ca0b91ff",
+          "5237097057e54642a966425f7eb7d112",
+          "f3d9ef57da5245849d446671959f89db",
+          "f59361f655ae4ae1ad3a31b4a319a4d9"
+        ]
+      }
+    },
+    {
+      "tick": 27,
+      "available_agents": 27,
+      "connected_agents": 25,
+      "decision": {
+        "requested_calls": 8,
+        "approved_calls": 8,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=35, near_free_agents=5, answer_rate=0.34, inflight_calls=60, avg_setup_ticks=3.70, avg_talk_ticks=5.64, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 8,
+        "started": 8,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "b0653d41431540c98a0c5eb800b6f7ac",
+          "34af7bbc0bf14413a015ac5ea56f96a2",
+          "110a29d8c4af413c94c23a625a676d7a",
+          "c2591ed5817440a9bb9e8d006e5d8813",
+          "07d04770f5d2461a83ce552036419262",
+          "f2da6a0ef32e4f95b1d613b3aacc50c0",
+          "9e19bb90d5a74c4e8d1540de52c2af9f",
+          "9da01bd48d3e4eabae81954822e47e76"
+        ]
+      }
+    },
+    {
+      "tick": 28,
+      "available_agents": 33,
+      "connected_agents": 28,
+      "decision": {
+        "requested_calls": 11,
+        "approved_calls": 11,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=41, near_free_agents=3, answer_rate=0.32, inflight_calls=56, avg_setup_ticks=3.54, avg_talk_ticks=5.58, provider_health=0.64; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 11,
+        "started": 8,
+        "failed": 3,
+        "skipped": 0,
+        "call_ids": [
+          "122e284873fb41a4a397baf3a5f87305",
+          "832a9feb262740789aec92839218d828",
+          "a7773129e5fe486bbcf6dfba8b1f779b",
+          "5a3352adcdca48ffa8dfea03e882bb78",
+          "993bf208aadb4c149697fbaa63b3c709",
+          "1074685f2dea4cd1a248665bb5a255fb",
+          "35cdf10684a549a8b36b3556f2fb4e9e",
+          "3c04963d1bbc484e8d15134ad3cc2ce1"
+        ]
+      }
+    },
+    {
+      "tick": 29,
+      "available_agents": 29,
+      "connected_agents": 27,
+      "decision": {
+        "requested_calls": 12,
+        "approved_calls": 12,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=7, answer_rate=0.32, inflight_calls=53, avg_setup_ticks=3.60, avg_talk_ticks=5.68, provider_health=0.62; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 12,
+        "started": 11,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "3d430a5759514435b64bed2a4f4ef20d",
+          "3c03c4f359ad4ac3bed12d450f8ef8ca",
+          "0009e7f1c7e5453f999f27c07a1c302f",
+          "1e5142fbd62c4a02a5d441836b41c3bd",
+          "31b1b57534114790a34d22b1f3b2e59f",
+          "5097aadbaaf5441ba71093f080ed543b",
+          "1066588b05644efcbd5f05842f0f87de",
+          "89167f32ac51478784ca97c20ce00bb6",
+          "ee3e3d7e7a9c4909a8cf5203d1d5ad1e",
+          "234e42220d24434c9a6685789794652e",
+          "813e3860451144919de4a35cbaa4c426"
+        ]
+      }
+    },
+    {
+      "tick": 30,
+      "available_agents": 27,
+      "connected_agents": 25,
+      "decision": {
+        "requested_calls": 10,
+        "approved_calls": 10,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=36, near_free_agents=8, answer_rate=0.36, inflight_calls=56, avg_setup_ticks=3.60, avg_talk_ticks=5.56, provider_health=0.61; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 10,
+        "started": 9,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "e5a3db51c62f40098331d7758769d85b",
+          "218f4aea6b8844cd8a621be6db4e13ca",
+          "42607861ce2047dc9d8802a22ab6670e",
+          "2cf3a2c66f10457c959816a5ec460689",
+          "766377625d7641b986a9dcec96cb3894",
+          "f44e027d313744fc9979c89237cd8d9d",
+          "efd3f9e934714f83be0f3e398675ab5e",
+          "788cdbbacbee47c496a706336f083296",
+          "cbd3f37cb57f4f05b9affdbe78a63d89"
+        ]
+      }
+    },
+    {
+      "tick": 31,
+      "available_agents": 28,
+      "connected_agents": 23,
+      "decision": {
+        "requested_calls": 13,
+        "approved_calls": 13,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=39, near_free_agents=11, answer_rate=0.36, inflight_calls=50, avg_setup_ticks=3.60, avg_talk_ticks=5.36, provider_health=0.61; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 13,
+        "started": 11,
+        "failed": 2,
+        "skipped": 0,
+        "call_ids": [
+          "3c34113a69154b89b596d77848269027",
+          "697cfb497dfb4ab9954bdb878dfdfdeb",
+          "ba14766750904009bae2ff15d611e3bb",
+          "f13f2a9af27e4898adfe837153c1fd39",
+          "efecbafc7e494ed9bc9bc7f6ebbd5949",
+          "60182631c22b4c2bbcd085620b0941b4",
+          "75a05a27fe2b45c9aaf37951dd80fa1f",
+          "24acc9df5cab4a8c9016d8c1662ed410",
+          "93322a39879b45e4a2aa5ad843814a0e",
+          "4c2c8e8c3574445f894a269a414d718b",
+          "a49a771bb80e43a59188e94659afe47f"
+        ]
+      }
+    },
+    {
+      "tick": 32,
+      "available_agents": 29,
+      "connected_agents": 23,
+      "decision": {
+        "requested_calls": 9,
+        "approved_calls": 9,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=36, near_free_agents=13, answer_rate=0.48, inflight_calls=51, avg_setup_ticks=3.50, avg_talk_ticks=5.58, provider_health=0.60; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 9,
+        "started": 7,
+        "failed": 2,
+        "skipped": 0,
+        "call_ids": [
+          "ed78961964e94a6194302c03c55cf1b6",
+          "3a6500bd3e2245b3b2b9a9c565d8c066",
+          "455632c38905481990a23bf46576b3ad",
+          "0989f82590094d9c9591efc8813e3f35",
+          "89f97470869647e19bccaa080134b052",
+          "77be614439e84e8282e54eaf7b9544e4",
+          "5e2b6a61134c4a24b4af9d5c7d671097"
+        ]
+      }
+    },
+    {
+      "tick": 33,
+      "available_agents": 30,
+      "connected_agents": 19,
+      "decision": {
+        "requested_calls": 9,
+        "approved_calls": 9,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=38, near_free_agents=11, answer_rate=0.44, inflight_calls=51, avg_setup_ticks=3.38, avg_talk_ticks=5.62, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 9,
+        "started": 8,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "f1ebd00ec9d44b86a1dfbfcc2b24fd3b",
+          "ddf7feec906f43b7835e0673bb29a091",
+          "6c485988711f40dba93d2b9f5df1e918",
+          "8ea0ff6804c04103a0445ad188f12b4a",
+          "8eeb9ed7a0254acb8575088c2908440b",
+          "9f8630539adb4dc3a9532c845f9611c5",
+          "6f531054e8d944cb9fa2ca2b6642f958",
+          "15413f1a00c74a1f80979d285eccbe46"
+        ]
+      }
+    },
+    {
+      "tick": 34,
+      "available_agents": 32,
+      "connected_agents": 20,
+      "decision": {
+        "requested_calls": 10,
+        "approved_calls": 10,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=41, near_free_agents=8, answer_rate=0.42, inflight_calls=51, avg_setup_ticks=3.48, avg_talk_ticks=5.54, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 10,
+        "started": 9,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "443734d781224190a29cd866ce060e4e",
+          "e83df5caac1a4e249e5e9fb13f975c86",
+          "114e2f79be3943419f08a9dbbf1be1f3",
+          "965661f36f844caa863bfb702ce55ef1",
+          "51a9b6ff7fc14a75b538760d9957a42f",
+          "f5c9b79db34e458a9616dbc2374282de",
+          "dacc7e79b1984c5b9e8d026df0aa396a",
+          "78151f45d32a4c4f9bd067aed2303370",
+          "d791f2a44ffa4eabb005341758d7ad47"
+        ]
+      }
+    },
+    {
+      "tick": 35,
+      "available_agents": 35,
+      "connected_agents": 20,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=48, near_free_agents=5, answer_rate=0.34, inflight_calls=47, avg_setup_ticks=3.60, avg_talk_ticks=5.52, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 13,
+        "failed": 1,
+        "skipped": 0,
+        "call_ids": [
+          "005869dcc99c4551b940f0a6183e81f6",
+          "599a3db3a6f34c248bb0fe7a236871d2",
+          "0afa5568ab8441b2b75c59c0b8106a90",
+          "2c3f90b41ee744a4ab3398ac418c879d",
+          "46fb0ed9328f4ccf86f1a4cc6a46eff2",
+          "f873f34b0abd4181907e621dfc5ba8c0",
+          "f711981f180e4d47b3756037f050e630",
+          "2f8edc374bd547ccb0cf877fb0221bfb",
+          "0b00116d91394f2d8bd545a66ac40a40",
+          "b6d749516914473bbc541ed5b6c9e724",
+          "d52f5566a4014ac4aa5bca2cc76bcd1f",
+          "7d3ba92068d74a14ac599b1f2d0878cd",
+          "df6892a256f64bd5938abbd9327bbe66"
+        ]
+      }
+    },
+    {
+      "tick": 36,
+      "available_agents": 31,
+      "connected_agents": 21,
+      "decision": {
+        "requested_calls": 14,
+        "approved_calls": 14,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=45, near_free_agents=9, answer_rate=0.38, inflight_calls=46, avg_setup_ticks=3.62, avg_talk_ticks=5.54, provider_health=0.58; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 14,
+        "started": 14,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "e8fc5c8b98b5479bb8729b329cec13b2",
+          "69d4d249414b470e83ff49a29a213dc1",
+          "6bd7b3d3b59e498a80fe4a7f7c8834de",
+          "3477f6869b86437fa39bcb0951aacabf",
+          "34f93b422d654e05806fbe62196fe803",
+          "2a4fa2bed61f4939a9b39f6793cd8039",
+          "2023eccc9a124475bde391b058abfae3",
+          "0d1d341416c24d3aabf565a4209c06d1",
+          "429c277f3abe400283945603a2d73025",
+          "455f359c823242b6a52978037d43f49a",
+          "8faee41c5dca4457ab9c572091a733f4",
+          "1637d9ecb3b149e29a815408a7763871",
+          "a7991a12a584448d8448cf1189a1e739",
+          "16adbb915a2440a787fcefd88f1c5fb5"
+        ]
+      }
+    },
+    {
+      "tick": 37,
+      "available_agents": 27,
+      "connected_agents": 17,
+      "decision": {
+        "requested_calls": 13,
+        "approved_calls": 13,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=12, answer_rate=0.40, inflight_calls=48, avg_setup_ticks=3.58, avg_talk_ticks=5.52, provider_health=0.59; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 13,
+        "started": 13,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "41a43a9490754bd899db04fb188585a6",
+          "74b89abd50af4301bea654f3fc9aeeff",
+          "396e444538fe41b6b8805099bf04109a",
+          "f60c61125b3b445a9556b171576cb6ae",
+          "b818528c8303458eafdc57dac0f33846",
+          "54fb8738e1a74e368096ccf2788e563b",
+          "686ab8c9cbd44c9c9733f9db4d4b34c4",
+          "36f2504d92d449719553dcb5723c7d5d",
+          "7315904162864cb3bf6f158cb15fd8da",
+          "723834df98394317bb19c8fc9abe6195",
+          "bc9cd5899a0146c7ae17304663756f25",
+          "eda876052df24c6c96f49ce69247637b",
+          "808f2daf7033425d8e3363c692971759"
+        ]
+      }
+    },
+    {
+      "tick": 38,
+      "available_agents": 30,
+      "connected_agents": 20,
+      "decision": {
+        "requested_calls": 11,
+        "approved_calls": 11,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=39, near_free_agents=9, answer_rate=0.34, inflight_calls=52, avg_setup_ticks=3.46, avg_talk_ticks=5.42, provider_health=0.59; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 11,
+        "started": 9,
+        "failed": 2,
+        "skipped": 0,
+        "call_ids": [
+          "16a49d2c4e394814a884cc3eb0f71a5f",
+          "96655cc504e84a15a2ea6aff93d741e9",
+          "3c6a70b185de4cd4871d7c89ac2b14ab",
+          "f28c7e22707c4fd4b1cc671c03e71e22",
+          "5d946584fbd34fe2bfbd429458983535",
+          "5a43ef121fd2469c8c738f586c5d7906",
+          "58abecb2883a441aa89e4955ba967f5d",
+          "8201d47080ae4e4f9fa6062e62013d89",
+          "a12e3a73cf67416ba378abfa899ea492"
+        ]
+      }
+    },
+    {
+      "tick": 39,
+      "available_agents": 29,
+      "connected_agents": 20,
+      "decision": {
+        "requested_calls": 11,
+        "approved_calls": 11,
+        "action": "reduce",
+        "reason": "predictive mode considered available_agents=40, near_free_agents=7, answer_rate=0.34, inflight_calls=53, avg_setup_ticks=3.54, avg_talk_ticks=5.34, provider_health=0.60; provider duplicates are elevated, shrinking predictive headroom"
+      },
+      "allocation": {
+        "requested": 11,
+        "started": 11,
+        "failed": 0,
+        "skipped": 0,
+        "call_ids": [
+          "955e5b93e31648c49aba56bafa073fcf",
+          "f3720b7b00bd4403904e99498c24e6a4",
+          "90ab6aa817394b118271c0769b8198cf",
+          "4e713db5baf5451fa1824299b208b1d9",
+          "9b25bebb1d2b44d891b5bd2508e224ab",
+          "6359d23505034fe884e0f14495d42d86",
+          "72f7f7aafb1e4c6ba22e6fc8fe50193c",
+          "30f8aa4a8b214015beffec6bf409994d",
+          "639e14a79d68488b85fc585cef6cb868",
+          "020a1db86f4b4741a590319730e082ac",
+          "e83bed26a74a47f78587092b35d7d9f0"
+        ]
+      }
+    }
+  ],
+  "load_test": {
+    "agent_count": 100,
+    "borrower_count": 1000,
+    "ticks": 40,
+    "wall_clock_seconds": 91.379,
+    "note": "SQLite is expected to be the first bottleneck under larger write-heavy runs."
+  }
+}

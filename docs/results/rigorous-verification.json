@@ -1,0 +1,145 @@
+{
+  "unittest": {
+    "tests_run": 18,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "concurrency_stress": {
+    "iterations": 30,
+    "contenders": 6,
+    "wall_clock_seconds": 6.025
+  },
+  "scenario_matrix": [
+    {
+      "scenario": "A",
+      "mode": "progressive",
+      "provider": "provider_a",
+      "ticks": 24,
+      "calls_initiated": 120,
+      "calls_connected": 25,
+      "calls_completed": 25,
+      "calls_failed": 95,
+      "decision_counts": {
+        "approve": 24
+      },
+      "safety_events": []
+    },
+    {
+      "scenario": "A",
+      "mode": "predictive",
+      "provider": "provider_a",
+      "ticks": 24,
+      "calls_initiated": 120,
+      "calls_connected": 25,
+      "calls_completed": 25,
+      "calls_failed": 95,
+      "decision_counts": {
+        "approve": 24
+      },
+      "safety_events": []
+    },
+    {
+      "scenario": "B",
+      "mode": "predictive",
+      "provider": "provider_a",
+      "ticks": 24,
+      "calls_initiated": 120,
+      "calls_connected": 60,
+      "calls_completed": 54,
+      "calls_failed": 55,
+      "decision_counts": {
+        "approve": 24
+      },
+      "safety_events": []
+    },
+    {
+      "scenario": "C",
+      "mode": "predictive",
+      "provider": "provider_a",
+      "ticks": 28,
+      "calls_initiated": 78,
+      "calls_connected": 49,
+      "calls_completed": 44,
+      "calls_failed": 22,
+      "decision_counts": {
+        "approve": 28
+      },
+      "safety_events": []
+    },
+    {
+      "scenario": "D",
+      "mode": "predictive",
+      "provider": "provider_b",
+      "ticks": 30,
+      "calls_initiated": 92,
+      "calls_connected": 37,
+      "calls_completed": 32,
+      "calls_failed": 50,
+      "decision_counts": {
+        "approve": 2,
+        "reduce": 24,
+        "fallback_to_progressive": 4
+      },
+      "safety_events": [
+        "tick=2:reduce",
+        "tick=3:reduce",
+        "tick=4:reduce",
+        "tick=5:reduce",
+        "tick=6:reduce",
+        "tick=7:reduce",
+        "tick=8:reduce",
+        "tick=9:reduce",
+        "tick=10:reduce",
+        "tick=11:reduce",
+        "tick=12:fallback_to_progressive",
+        "tick=13:fallback_to_progressive"
+      ]
+    }
+  ],
+  "load_verification": [
+    {
+      "scenario": "LOAD_A",
+      "mode": "predictive",
+      "provider": "provider_a",
+      "ticks": 18,
+      "calls_initiated": 196,
+      "calls_connected": 81,
+      "calls_completed": 70,
+      "calls_failed": 99,
+      "decision_counts": {
+        "approve": 18
+      },
+      "safety_events": []
+    },
+    {
+      "scenario": "LOAD_B",
+      "mode": "predictive",
+      "provider": "provider_b",
+      "ticks": 20,
+      "calls_initiated": 182,
+      "calls_connected": 70,
+      "calls_completed": 61,
+      "calls_failed": 92,
+      "decision_counts": {
+        "approve": 1,
+        "reduce": 19
+      },
+      "safety_events": [
+        "tick=1:reduce",
+        "tick=2:reduce",
+        "tick=3:reduce",
+        "tick=4:reduce",
+        "tick=5:reduce",
+        "tick=6:reduce",
+        "tick=7:reduce",
+        "tick=8:reduce",
+        "tick=9:reduce",
+        "tick=10:reduce",
+        "tick=11:reduce",
+        "tick=12:reduce"
+      ]
+    }
+  ],
+  "wall_clock_seconds": 436.659
+}
